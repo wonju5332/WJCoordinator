@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WJCoordinator_Example' do
+  pod 'WJCoordinator', :path => '../'
+
+  target 'WJCoordinator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
