@@ -1,0 +1,16 @@
+PODS:
+  - WJCoordinator (0.1.0)
+
+DEPENDENCIES:
+  - WJCoordinator (from `../`)
+
+EXTERNAL SOURCES:
+  WJCoordinator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJCoordinator: f04a66697bdf144f49b4919dd79aafbf65f0755c
+
+PODFILE CHECKSUM: e6a6a3c3f8b0f96895fe1b12a01e482406196455
+
+COCOAPODS: 1.8.4

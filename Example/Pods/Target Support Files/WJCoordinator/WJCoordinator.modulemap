@@ -1,0 +1,6 @@
+framework module WJCoordinator {
+  umbrella header "WJCoordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}
