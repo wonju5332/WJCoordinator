@@ -1,3 +1,4 @@
+import UIKit
 
 public protocol WJCoordinable {
     var window:UIWindow {get set}
