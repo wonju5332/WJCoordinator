@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import WJCoordinator
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var coordinator:WJAppdelegateCoordinator?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        coordinator = WJAppdelegateCoordinator(window: window)
+        self.window = window
+        
+        coordinator?.start()
+        
         return true
     }
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007B3973B2AA722B4815D08F665E51D4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B6F5F197533893B3FF56EC340D86C /* ReplaceMe.swift */; };
+		007B3973B2AA722B4815D08F665E51D4 /* WJCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B6F5F197533893B3FF56EC340D86C /* WJCoordinator.swift */; };
 		011D0EA154C1A6B15CD83035D150EE0C /* Pods-WJCoordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8233D2304BC3E407BED697DEBA951FEE /* Pods-WJCoordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		096ED25051E98E92778823BE4D8662FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		12E2CB0C7611D9D86DC5807B397198A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -37,30 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11BBE4DBE6524A977338369253D44DD2 /* WJCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJCoordinator.framework; path = WJCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BBE4DBE6524A977338369253D44DD2 /* WJCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1983FDEA855C0CF57907D33C77C98CE0 /* WJCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WJCoordinator-Info.plist"; sourceTree = "<group>"; };
 		2694492926DE462F0AAEACD985A51CC9 /* WJCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJCoordinator.modulemap; sourceTree = "<group>"; };
 		293E5F9A5285B625065348B6B0103CD1 /* WJCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJCoordinator-prefix.pch"; sourceTree = "<group>"; };
 		2E682783A2AB960BA83277F21D7E9683 /* WJCoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJCoordinator.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		463BBEB63B1849BBC516918DBBD620FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		463BBEB63B1849BBC516918DBBD620FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		485F285860A4B84A0D95BD385B08B881 /* Pods-WJCoordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJCoordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		50F58A0934157C47819DB6CD8D0FA0AF /* Pods-WJCoordinator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJCoordinator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5229450F769D0BB40041491D82973681 /* Pods-WJCoordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJCoordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		552B6F5F197533893B3FF56EC340D86C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WJCoordinator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		552B6F5F197533893B3FF56EC340D86C /* WJCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WJCoordinator.swift; path = WJCoordinator/Classes/WJCoordinator.swift; sourceTree = "<group>"; };
 		6DF62D8AB0CEE55E9EDEA30D40EDCC49 /* WJCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJCoordinator-dummy.m"; sourceTree = "<group>"; };
-		6F72496004B3EF75F7274B2097BCE15B /* WJCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WJCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F72496004B3EF75F7274B2097BCE15B /* WJCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WJCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		772D74994B4E7116C14E7FF06BA9F490 /* Pods-WJCoordinator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJCoordinator_Example-Info.plist"; sourceTree = "<group>"; };
 		8233D2304BC3E407BED697DEBA951FEE /* Pods-WJCoordinator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJCoordinator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		872BBCB614E53362F15FCAB89687C4FE /* WJCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJCoordinator-umbrella.h"; sourceTree = "<group>"; };
-		8BEDF8D5D75525878CFCF10AB835F4BD /* Pods_WJCoordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJCoordinator_Example.framework; path = "Pods-WJCoordinator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEDF8D5D75525878CFCF10AB835F4BD /* Pods_WJCoordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJCoordinator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91289E0C17E105891298AC5384862BC0 /* Pods-WJCoordinator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJCoordinator_Tests.modulemap"; sourceTree = "<group>"; };
 		970CE112EC124380E521E423255A59F0 /* Pods-WJCoordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJCoordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		97FC3320C6578A04D34EBFEF99196CA7 /* Pods-WJCoordinator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJCoordinator_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B92578C76C23DB93C7E13D5BDBD4B194 /* Pods_WJCoordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJCoordinator_Tests.framework; path = "Pods-WJCoordinator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B92578C76C23DB93C7E13D5BDBD4B194 /* Pods_WJCoordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJCoordinator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE28C05EEFCDB2474930CB082E84190C /* Pods-WJCoordinator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJCoordinator_Tests-Info.plist"; sourceTree = "<group>"; };
-		CEEF22B32745346D1664A03CB83E3ABD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CEEF22B32745346D1664A03CB83E3ABD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D940D7700629C8DF51FB5487DE07EC4B /* Pods-WJCoordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJCoordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E00E8F0A75B209F4EF21FCE2BB1C0613 /* Pods-WJCoordinator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJCoordinator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E19E45F2F60764E2EA1CA0374A7D433A /* Pods-WJCoordinator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJCoordinator_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		0BF3E78B31A504AB5BAA0C92CD04B97E /* WJCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				552B6F5F197533893B3FF56EC340D86C /* ReplaceMe.swift */,
+				552B6F5F197533893B3FF56EC340D86C /* WJCoordinator.swift */,
 				8B4BA7FFA8CBEAE2555D661F2D715161 /* Pod */,
 				175401D0E9C2A3A692E321B87BEED8B2 /* Support Files */,
 			);
@@ -365,7 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007B3973B2AA722B4815D08F665E51D4 /* ReplaceMe.swift in Sources */,
+				007B3973B2AA722B4815D08F665E51D4 /* WJCoordinator.swift in Sources */,
 				BAAD1D55FD683E20AF1B3075765943E1 /* WJCoordinator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,8 +621,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
