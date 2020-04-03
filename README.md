@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/WJCoordinator.svg?style=flat)](https://cocoapods.org/pods/WJCoordinator)
 [![License](https://img.shields.io/cocoapods/l/WJCoordinator.svg?style=flat)](https://cocoapods.org/pods/WJCoordinator)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![SwiftPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
 [![Platform](https://img.shields.io/cocoapods/p/WJCoordinator.svg?style=flat)](https://cocoapods.org/pods/WJCoordinator)
 
 ## Example
